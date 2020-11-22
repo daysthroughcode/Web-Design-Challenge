@@ -5,8 +5,8 @@ body {
 }
 
 .navbar-collapse{
-  Top:100%;
-  position:absolute;
+  Top:0%;
+  position:fixed;
 }
 
 .navbar-light .navbar-brand {
