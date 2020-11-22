@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  background-color:rgb(167, 216, 231);
+}
+
+.navbar-light .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+
+.navbar {
+  background-color: rgb(20, 150, 150);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 100%;
+  padding: 0;
+}
+
+.container-fluid{
+  background-color: rgb(20, 150, 150); 
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgb(20, 150, 150);
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.row{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar-collapse {
+  position: absolute;
+  right: 5%;
+  font-size: medium;
+}
+
+.nav-item {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgb(20, 150, 150);
+  padding: 2px;
+}
+
+.content {
+  width:90%;
+  margin: 20px auto;
+  padding:1em;
+}
+  
+
+
+.text-left {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.text-center {
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+p:not(.intro) {
+  text-align: justify;
+  color: #020202;
+}
+
+.thumbnail {
+  width:50%;
+}
+
+.main-image {      
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    float: left;
+}
+
+.col-md-8 {
+  background-color: white;
+}
+
+.col-sm-12,.col-md-4 {
+  background-color: white;
+}
+
+div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
+
+.imagetiles {
+  background-color: white;
+}
+div.imagetiles div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
+
+div.col-sm-12.col-md-12 p {
+  color: black;
+  font-size: medium;
+}
+
+.panel-body:hover {
+  border-color: blueviolet;
+  border size: 50px;
+}
+
+@include media-breakpoint-down(md) {
+  .col-md-8 {
+    display: block;
+  }
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 500px;
+  overflow: auto;
+  }
+  .table-wrapper-scroll-y {
+  display: block;
+  }
