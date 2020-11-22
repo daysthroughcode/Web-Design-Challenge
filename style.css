@@ -4,6 +4,11 @@ body {
   background-color:rgb(167, 216, 231);
 }
 
+.navbar-collapse{
+  Top:100%;
+  position:absolute;
+}
+
 .navbar-light .navbar-brand {
   color: rgb(255, 255, 255);
 }
@@ -89,7 +94,7 @@ p:not(.intro) {
   background-color: white;
 }
 
-.col-sm-12,.col-md-4 {
+.col-sm-12,.col-md-4,.col-lg {
   background-color: white;
 }
 
@@ -122,7 +127,7 @@ div.col-sm-12.col-md-12 p {
 
 .my-custom-scrollbar {
   position: relative;
-  height: 500px;
+  height: 1000px;
   overflow: auto;
   }
   .table-wrapper-scroll-y {
